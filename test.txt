@@ -1,0 +1,794 @@
+<<    CIS-22C Team Project    >>
+Team Title: Basketball Team Database.
+
+Team members:
+        Xiaoran Mei
+        Keano Zamora
+        Diep Quynh Nguyen
+        Soyeon Wang
+        Bobby Nguyen
+
+ _______________________________
+|           Main Menu           |
+|-------------------------------|
+| A - Add Team                  |
+| S - Search Team               |
+| D - Delete Team               |
+| P - Print Team                |
+| T - Show Statistics of Hash   |
+| Q - Quit                      |
+|_______________________________|
+Select the menu: D
+ _______________________________
+|          Delete Menu          |
+|-------------------------------|
+| D - Delete Team               |
+| U - Undo Delete               |
+| S - Save to file              |
+| R - Return to Main Menu       |
+|_______________________________|
+Select the menu: D
+Enter Team Name to be Removed: Los Angeles Clippers
+
+Delete Successful!
+ _______________________________
+|          Delete Menu          |
+|-------------------------------|
+| D - Delete Team               |
+| U - Undo Delete               |
+| S - Save to file              |
+| R - Return to Main Menu       |
+|_______________________________|
+Select the menu: D
+Enter Team Name to be Removed: Los Angeles Lakers
+
+Delete Successful!
+ _______________________________
+|          Delete Menu          |
+|-------------------------------|
+| D - Delete Team               |
+| U - Undo Delete               |
+| S - Save to file              |
+| R - Return to Main Menu       |
+|_______________________________|
+Select the menu: U
+Undo Delete - Los Angeles Lakers
+ _______________________________
+|          Delete Menu          |
+|-------------------------------|
+| D - Delete Team               |
+| U - Undo Delete               |
+| S - Save to file              |
+| R - Return to Main Menu       |
+|_______________________________|
+Select the menu: S
+Save to File Successful!
+
+ _______________________________
+|          Delete Menu          |
+|-------------------------------|
+| D - Delete Team               |
+| U - Undo Delete               |
+| S - Save to file              |
+| R - Return to Main Menu       |
+|_______________________________|
+Select the menu: R
+Return to the Main Menu.
+
+ _______________________________
+|           Main Menu           |
+|-------------------------------|
+| A - Add Team                  |
+| S - Search Team               |
+| D - Delete Team               |
+| P - Print Team                |
+| T - Show Statistics of Hash   |
+| Q - Quit                      |
+|_______________________________|
+Select the menu: S
+ _______________________________
+|          Search Menu          |
+|-------------------------------|
+| P - By Team Name              |
+| S - By City                   |
+| R - Return to Main Menu       |
+|_______________________________|
+Select the menu: P
+Enter the Team Name to be Searched: Los Angeles Clippers
+ERROR: Team with the Name - Los Angeles Clippers - Not Found...
+ _______________________________
+|          Search Menu          |
+|-------------------------------|
+| P - By Team Name              |
+| S - By City                   |
+| R - Return to Main Menu       |
+|_______________________________|
+Select the menu: P
+Enter the Team Name to be Searched: Golden State Warriors
+<< Golden State Warriors >>
+City: Oakland, CA
+Home Court: Oracle Arena
+Players on Roster: 15
+Coach: Steve Kerr
+Owner: Joseph S. Lacob, Peter Guber
+Championships won: 4
+
+ _______________________________
+|          Search Menu          |
+|-------------------------------|
+| P - By Team Name              |
+| S - By City                   |
+| R - Return to Main Menu       |
+|_______________________________|
+Select the menu: S
+Enter the City of Team to be Searched: New York City, NY
+<< Brooklyn Nets >>
+City: New York City, NY
+Home Court: Barclays Center
+Players on Roster: 15
+Coach: Kenny Atkinson
+Owner: Mikhail Prokhorov
+Championships won: 2
+
+<< New York Knicks >>
+City: New York City, NY
+Home Court: Madison Square Garden
+Players on Roster: 15
+Coach: Jeff Hornacek
+Owner: The Madison Square Garden Company
+Championships won: 2
+
+ _______________________________
+|          Search Menu          |
+|-------------------------------|
+| P - By Team Name              |
+| S - By City                   |
+| R - Return to Main Menu       |
+|_______________________________|
+Select the menu: R
+Return to the Main Menu.
+
+ _______________________________
+|           Main Menu           |
+|-------------------------------|
+| A - Add Team                  |
+| S - Search Team               |
+| D - Delete Team               |
+| P - Print Team                |
+| T - Show Statistics of Hash   |
+| Q - Quit                      |
+|_______________________________|
+Select the menu: A
+Enter the Team Name: Los Angeles Clippers
+Enter City: Los Angeles, CA
+Enter Home Court: Staples Center
+Enter the Number of Players: 15
+Enter Coach: Doc Rivers
+Enter Owner: Steve Ballmer
+Enter the Number of Championships: 0
+Successfully Added!
+ _______________________________
+|           Main Menu           |
+|-------------------------------|
+| A - Add Team                  |
+| S - Search Team               |
+| D - Delete Team               |
+| P - Print Team                |
+| T - Show Statistics of Hash   |
+| Q - Quit                      |
+|_______________________________|
+Select the menu: A
+Enter the Team Name: Team eight
+Enter City: N/A
+Enter Home Court: N/A
+Enter the Number of Players: 5
+Enter Coach: N/A
+Enter Owner: N/A
+Enter the Number of Championships: 0
+Successfully Added!
+ _______________________________
+|           Main Menu           |
+|-------------------------------|
+| A - Add Team                  |
+| S - Search Team               |
+| D - Delete Team               |
+| P - Print Team                |
+| T - Show Statistics of Hash   |
+| Q - Quit                      |
+|_______________________________|
+Select the menu: P
+ _________________________________
+|            Print Menu           |
+|---------------------------------|
+| U - Unsorted Data               |
+| I - Indented Tree(Primary)      |
+| N - Indented Tree(Secondary)    |
+| P - Sorted by Team Name(Primary)|
+| S - Sorted by City(Secondary)   |
+| R - Return to Main Menu         |
+|_________________________________|
+Select the menu: U
+ _________________________________________________________________________________________________________________________________________________
+|                                                                 Basketball Team                                                                 |
+|=================================================================================================================================================|
+|Name                     |City               |Home court                 |Players|Coach           |Owner                            |Championship|
+|-------------------------------------------------------------------------------------------------------------------------------------------------|
+|Memphis Grizzlies        |Memphis, TN        |FedExForum                 |     15|David Fizdale   |Robert J. Pera                   |           0|
+|Golden State Warriors    |Oakland, CA        |Oracle Arena               |     15|Steve Kerr      |Joseph S. Lacob, Peter Guber     |           4|
+|San Antonio Spurs        |San Antonio, TX    |AT&T Center                |     15|Gregg Popovich  |Peter Holt                       |           5|
+|Atlanta Hawks            |Atlanta, GA        |Philips Arena              |     15|Mike Budenholzer|Antony Ressler                   |           1|
+|Houston Rockets          |Houston, TX        |Toyota Center              |     15|Mike D'Antoni   |Leslie Alexander                 |           2|
+|Miami Heat               |Miami, FL          |American Airlines Arena    |     15|Erik Spoelstra  |Micky Arison                     |           3|
+|Washington Wizards       |Washington, D.C.   |Verizon Center             |     15|Scott Brooks    |Ted Leonsis                      |           1|
+|Boston Celtics           |Boston, MA         |TD Garden                  |     15|Brad Stevens    |Grousbeck, Steve Pagliuca        |          17|
+|Indiana Pacers           |Indiana            |Bankers Life Fieldhouse    |     15|Nate McMillan   |Herbert Simon                    |           0|
+|Sacramento Kings         |Sacramento, CA     |Golden 1 Center            |     15|Dave Joerger    |Vivek Ranadiv开                  |           1|
+|Utah Jazz                |Salt Lake City, UT |Vivint Smart Home Arena    |     15|Quin Snyder     |Greg Miller                      |           0|
+|Chicago Bulls            |Chicago, IL        |United Center              |     15|Fred Hoiberg    |Jerry Reinsdorf                  |           6|
+|Los Angeles Lakers       |Los Angeles, CA    |Staples Center             |     15|Luke Walton     |The Buss                         |          16|
+|New Orleans Pelicans     |New Orleans, LA    |Smoothie King Center       |     15|Alvin Gentry    |Tom Benson                       |           0|
+|Toronto Raptors          |Toronto, Canada    |Air Canada Centre          |     15|Dwane Casey     |Maple Leaf Hockey Club.          |           0|
+|Charlotte Hornets        |Charlotte, NC      |Spectrum Center            |     15|Steve Clifford  |Nba Media Ventures, LLC          |           0|
+|Cleveland Cavaliers      |Cleveland, OH      |Quicken Loans Arena        |     15|Tyronn Lue      |Dan Gilbert, Usher, Gordon Gund  |           1|
+|Los Angeles Clippers     |Los Angeles, CA    |Staples Center             |     15|Doc Rivers      |Steve Ballmer                    |           0|
+|Minnesota Timberwolves   |Minneapolis, MN    |Target Center              |     15|Tom Thibodeau   |Glen Taylor                      |           0|
+|Portland Trail Blazers   |Portland, OR       |Moda Center                |     15|Terry Stotts    |Paul Allen                       |           1|
+|Team eight               |N/A                |N/A                        |      5|N/A             |N/A                              |           0|
+|Brooklyn Nets            |New York City, NY  |Barclays Center            |     15|Kenny Atkinson  |Mikhail Prokhorov                |           2|
+|Dallas Mavericks         |Dallas, TX         |American Airlines Center   |     15|Rick Carlisle   |Mark Cuban                       |           1|
+|Milwaukee Bucks          |Milwaukee, WI      |BMO Harris Bradley Center  |     15|Jason Kidd      |Wesley R. Edens, Marc Lasry      |           1|
+|New York Knicks          |New York City, NY  |Madison Square Garden      |     15|Jeff Hornacek   |The Madison Square Garden Company|           2|
+|Denver Nuggets           |Denver, CO         |Pepsi Center               |     15|Michael Malone  |Ann Walton Kroenke               |           0|
+|Phoenix Suns             |Phoenix, AZ        |Talking Stick Resort Arena |     14|Earl Watson     |Robert Sarver                    |           0|
+|Detroit Pistons          |Detroit, MI        |The Palace of Auburn Hills |     15|Stan Van Gundy  |Tom Gores                        |           3|
+|Orlando Magic            |Orlando, FL        |Amway Center               |     14|Frank Vogel     |RDV Sports, Inc.                 |           0|
+|Oklahoma City Thunder    |Oklahoma City, OK  |Chesapeake Energy Arena    |     15|Billy Donovan   |Professional Basketball Club LLC |           1|
+|Philadelphia 76ers       |Philadelphia, PA   |Wells Fargo Center         |     15|Brett Brown     |Joshua Harris                    |           3|
+|_________________________|___________________|___________________________|_______|________________|_________________________________|____________|
+ _________________________________
+|            Print Menu           |
+|---------------------------------|
+| U - Unsorted Data               |
+| I - Indented Tree(Primary)      |
+| N - Indented Tree(Secondary)    |
+| P - Sorted by Team Name(Primary)|
+| S - Sorted by City(Secondary)   |
+| R - Return to Main Menu         |
+|_________________________________|
+Select the menu: I
+#0 Name: Memphis Grizzlies
+-> City: Memphis, TN
+-> Home Court: FedExForum
+-> Players on Roster: 15
+-> Coach: David Fizdale
+-> Owner: Robert J. Pera
+-> Championships won: 0
+                   #1 Name: San Antonio Spurs
+                   -> City: San Antonio, TX
+                   -> Home Court: AT&T Center
+                   -> Players on Roster: 15
+                   -> Coach: Gregg Popovich
+                   -> Owner: Peter Holt
+                   -> Championships won: 5
+                                       #2 Name: Washington Wizards
+                                       -> City: Washington, D.C.
+                                       -> Home Court: Verizon Center
+                                       -> Players on Roster: 15
+                                       -> Coach: Scott Brooks
+                                       -> Owner: Ted Leonsis
+                                       -> Championships won: 1
+                                                           #3 Name: Utah Jazz
+                                                           -> City: Salt Lake City, UT
+                                                           -> Home Court: Vivint Smart Home Arena
+                                                           -> Players on Roster: 15
+                                                           -> Coach: Quin Snyder
+                                                           -> Owner: Greg Miller
+                                                           -> Championships won: 0
+                                                                               #4 Name: Toronto Raptors
+                                                                               -> City: Toronto, Canada
+                                                                               -> Home Court: Air Canada Centre
+                                                                               -> Players on Roster: 15
+                                                                               -> Coach: Dwane Casey
+                                                                               -> Owner: Maple Leaf Hockey Club.
+                                                                               -> Championships won: 0
+                                                                                                   #5 Name: Team eight
+                                                                                                   -> City: N/A
+                                                                                                   -> Home Court: N/A
+                                                                                                   -> Players on Roster: 5
+                                                                                                   -> Coach: N/A
+                                                                                                   -> Owner: N/A
+                                                                                                   -> Championships won: 0
+                                       #2 Name: Miami Heat
+                                       -> City: Miami, FL
+                                       -> Home Court: American Airlines Arena
+                                       -> Players on Roster: 15
+                                       -> Coach: Erik Spoelstra
+                                       -> Owner: Micky Arison
+                                       -> Championships won: 3
+                                                           #3 Name: Sacramento Kings
+                                                           -> City: Sacramento, CA
+                                                           -> Home Court: Golden 1 Center
+                                                           -> Players on Roster: 15
+                                                           -> Coach: Dave Joerger
+                                                           -> Owner: Vivek Ranadiv开
+                                                           -> Championships won: 1
+                                                                               #4 Name: New Orleans Pelicans
+                                                                               -> City: New Orleans, LA
+                                                                               -> Home Court: Smoothie King Center
+                                                                               -> Players on Roster: 15
+                                                                               -> Coach: Alvin Gentry
+                                                                               -> Owner: Tom Benson
+                                                                               -> Championships won: 0
+                                                                                                   #5 Name: Portland Trail Blazers
+                                                                                                   -> City: Portland, OR
+                                                                                                   -> Home Court: Moda Center
+                                                                                                   -> Players on Roster: 15
+                                                                                                   -> Coach: Terry Stotts
+                                                                                                   -> Owner: Paul Allen
+                                                                                                   -> Championships won: 1
+                                                                                                                       #6 Name: New York Knicks
+                                                                                                                       -> City: New York City, NY
+                                                                                                                       -> Home Court: Madison Square Garden
+                                                                                                                       -> Players on Roster: 15
+                                                                                                                       -> Coach: Jeff Hornacek
+                                                                                                                       -> Owner: The Madison Square Garden Company
+                                                                                                                       -> Championships won: 2
+                                                                                                                                           #7 Name: Phoenix Suns
+                                                                                                                                           -> City: Phoenix, AZ
+                                                                                                                                           -> Home Court: Talking Stick Resort Arena
+                                                                                                                                           -> Players on Roster: 14
+                                                                                                                                           -> Coach: Earl Watson
+                                                                                                                                           -> Owner: Robert Sarver
+                                                                                                                                           -> Championships won: 0
+                                                                                                                                                               #8 Name: Orlando Magic
+                                                                                                                                                               -> City: Orlando, FL
+                                                                                                                                                               -> Home Court: Amway Center
+                                                                                                                                                               -> Players on Roster: 14
+                                                                                                                                                               -> Coach: Frank Vogel
+                                                                                                                                                               -> Owner: RDV Sports, Inc.
+                                                                                                                                                               -> Championships won: 0
+                                                                                                                                                                                   #9 Name: Philadelphia 76ers
+                                                                                                                                                                                   -> City: Philadelphia, PA
+                                                                                                                                                                                   -> Home Court: Wells Fargo Center
+                                                                                                                                                                                   -> Players on Roster: 15
+                                                                                                                                                                                   -> Coach: Brett Brown
+                                                                                                                                                                                   -> Owner: Joshua Harris
+                                                                                                                                                                                   -> Championships won: 3
+                                                                                                                                                                                   #9 Name: Oklahoma City Thunder
+                                                                                                                                                                                   -> City: Oklahoma City, OK
+                                                                                                                                                                                   -> Home Court: Chesapeake Energy Arena
+                                                                                                                                                                                   -> Players on Roster: 15
+                                                                                                                                                                                   -> Coach: Billy Donovan
+                                                                                                                                                                                   -> Owner: Professional Basketball Club LLC
+                                                                                                                                                                                   -> Championships won: 1
+                                                                                                   #5 Name: Minnesota Timberwolves
+                                                                                                   -> City: Minneapolis, MN
+                                                                                                   -> Home Court: Target Center
+                                                                                                   -> Players on Roster: 15
+                                                                                                   -> Coach: Tom Thibodeau
+                                                                                                   -> Owner: Glen Taylor
+                                                                                                   -> Championships won: 0
+                                                                                                                       #6 Name: Milwaukee Bucks
+                                                                                                                       -> City: Milwaukee, WI
+                                                                                                                       -> Home Court: BMO Harris Bradley Center
+                                                                                                                       -> Players on Roster: 15
+                                                                                                                       -> Coach: Jason Kidd
+                                                                                                                       -> Owner: Wesley R. Edens, Marc Lasry
+                                                                                                                       -> Championships won: 1
+                   #1 Name: Golden State Warriors
+                   -> City: Oakland, CA
+                   -> Home Court: Oracle Arena
+                   -> Players on Roster: 15
+                   -> Coach: Steve Kerr
+                   -> Owner: Joseph S. Lacob, Peter Guber
+                   -> Championships won: 4
+                                       #2 Name: Houston Rockets
+                                       -> City: Houston, TX
+                                       -> Home Court: Toyota Center
+                                       -> Players on Roster: 15
+                                       -> Coach: Mike D'Antoni
+                                       -> Owner: Leslie Alexander
+                                       -> Championships won: 2
+                                                           #3 Name: Indiana Pacers
+                                                           -> City: Indiana
+                                                           -> Home Court: Bankers Life Fieldhouse
+                                                           -> Players on Roster: 15
+                                                           -> Coach: Nate McMillan
+                                                           -> Owner: Herbert Simon
+                                                           -> Championships won: 0
+                                                                               #4 Name: Los Angeles Lakers
+                                                                               -> City: Los Angeles, CA
+                                                                               -> Home Court: Staples Center
+                                                                               -> Players on Roster: 15
+                                                                               -> Coach: Luke Walton
+                                                                               -> Owner: The Buss
+                                                                               -> Championships won: 16
+                                                                                                   #5 Name: Los Angeles Clippers
+                                                                                                   -> City: Los Angeles, CA
+                                                                                                   -> Home Court: Staples Center
+                                                                                                   -> Players on Roster: 15
+                                                                                                   -> Coach: Doc Rivers
+                                                                                                   -> Owner: Steve Ballmer
+                                                                                                   -> Championships won: 0
+                                       #2 Name: Atlanta Hawks
+                                       -> City: Atlanta, GA
+                                       -> Home Court: Philips Arena
+                                       -> Players on Roster: 15
+                                       -> Coach: Mike Budenholzer
+                                       -> Owner: Antony Ressler
+                                       -> Championships won: 1
+                                                           #3 Name: Boston Celtics
+                                                           -> City: Boston, MA
+                                                           -> Home Court: TD Garden
+                                                           -> Players on Roster: 15
+                                                           -> Coach: Brad Stevens
+                                                           -> Owner: Grousbeck, Steve Pagliuca
+                                                           -> Championships won: 17
+                                                                               #4 Name: Chicago Bulls
+                                                                               -> City: Chicago, IL
+                                                                               -> Home Court: United Center
+                                                                               -> Players on Roster: 15
+                                                                               -> Coach: Fred Hoiberg
+                                                                               -> Owner: Jerry Reinsdorf
+                                                                               -> Championships won: 6
+                                                                                                   #5 Name: Cleveland Cavaliers
+                                                                                                   -> City: Cleveland, OH
+                                                                                                   -> Home Court: Quicken Loans Arena
+                                                                                                   -> Players on Roster: 15
+                                                                                                   -> Coach: Tyronn Lue
+                                                                                                   -> Owner: Dan Gilbert, Usher, Gordon Gund
+                                                                                                   -> Championships won: 1
+                                                                                                                       #6 Name: Dallas Mavericks
+                                                                                                                       -> City: Dallas, TX
+                                                                                                                       -> Home Court: American Airlines Center
+                                                                                                                       -> Players on Roster: 15
+                                                                                                                       -> Coach: Rick Carlisle
+                                                                                                                       -> Owner: Mark Cuban
+                                                                                                                       -> Championships won: 1
+                                                                                                                                           #7 Name: Denver Nuggets
+                                                                                                                                           -> City: Denver, CO
+                                                                                                                                           -> Home Court: Pepsi Center
+                                                                                                                                           -> Players on Roster: 15
+                                                                                                                                           -> Coach: Michael Malone
+                                                                                                                                           -> Owner: Ann Walton Kroenke
+                                                                                                                                           -> Championships won: 0
+                                                                                                                                                               #8 Name: Detroit Pistons
+                                                                                                                                                               -> City: Detroit, MI
+                                                                                                                                                               -> Home Court: The Palace of Auburn Hills
+                                                                                                                                                               -> Players on Roster: 15
+                                                                                                                                                               -> Coach: Stan Van Gundy
+                                                                                                                                                               -> Owner: Tom Gores
+                                                                                                                                                               -> Championships won: 3
+                                                                                                   #5 Name: Charlotte Hornets
+                                                                                                   -> City: Charlotte, NC
+                                                                                                   -> Home Court: Spectrum Center
+                                                                                                   -> Players on Roster: 15
+                                                                                                   -> Coach: Steve Clifford
+                                                                                                   -> Owner: Nba Media Ventures, LLC
+                                                                                                   -> Championships won: 0
+                                                                                                                       #6 Name: Brooklyn Nets
+                                                                                                                       -> City: New York City, NY
+                                                                                                                       -> Home Court: Barclays Center
+                                                                                                                       -> Players on Roster: 15
+                                                                                                                       -> Coach: Kenny Atkinson
+                                                                                                                       -> Owner: Mikhail Prokhorov
+                                                                                                                       -> Championships won: 2
+ _________________________________
+|            Print Menu           |
+|---------------------------------|
+| U - Unsorted Data               |
+| I - Indented Tree(Primary)      |
+| N - Indented Tree(Secondary)    |
+| P - Sorted by Team Name(Primary)|
+| S - Sorted by City(Secondary)   |
+| R - Return to Main Menu         |
+|_________________________________|
+Select the menu: N
+#0 Name: Memphis Grizzlies
+-> City: Memphis, TN
+-> Home Court: FedExForum
+-> Players on Roster: 15
+-> Coach: David Fizdale
+-> Owner: Robert J. Pera
+-> Championships won: 0
+                   #1 Name: Golden State Warriors
+                   -> City: Oakland, CA
+                   -> Home Court: Oracle Arena
+                   -> Players on Roster: 15
+                   -> Coach: Steve Kerr
+                   -> Owner: Joseph S. Lacob, Peter Guber
+                   -> Championships won: 4
+                                       #2 Name: San Antonio Spurs
+                                       -> City: San Antonio, TX
+                                       -> Home Court: AT&T Center
+                                       -> Players on Roster: 15
+                                       -> Coach: Gregg Popovich
+                                       -> Owner: Peter Holt
+                                       -> Championships won: 5
+                                                           #3 Name: Washington Wizards
+                                                           -> City: Washington, D.C.
+                                                           -> Home Court: Verizon Center
+                                                           -> Players on Roster: 15
+                                                           -> Coach: Scott Brooks
+                                                           -> Owner: Ted Leonsis
+                                                           -> Championships won: 1
+                                                                               #4 Name: Toronto Raptors
+                                                                               -> City: Toronto, Canada
+                                                                               -> Home Court: Air Canada Centre
+                                                                               -> Players on Roster: 15
+                                                                               -> Coach: Dwane Casey
+                                                                               -> Owner: Maple Leaf Hockey Club.
+                                                                               -> Championships won: 0
+                                                           #3 Name: Utah Jazz
+                                                           -> City: Salt Lake City, UT
+                                                           -> Home Court: Vivint Smart Home Arena
+                                                           -> Players on Roster: 15
+                                                           -> Coach: Quin Snyder
+                                                           -> Owner: Greg Miller
+                                                           -> Championships won: 0
+                                                                               #4 Name: Sacramento Kings
+                                                                               -> City: Sacramento, CA
+                                                                               -> Home Court: Golden 1 Center
+                                                                               -> Players on Roster: 15
+                                                                               -> Coach: Dave Joerger
+                                                                               -> Owner: Vivek Ranadiv开
+                                                                               -> Championships won: 1
+                                                                                                   #5 Name: Portland Trail Blazers
+                                                                                                   -> City: Portland, OR
+                                                                                                   -> Home Court: Moda Center
+                                                                                                   -> Players on Roster: 15
+                                                                                                   -> Coach: Terry Stotts
+                                                                                                   -> Owner: Paul Allen
+                                                                                                   -> Championships won: 1
+                                                                                                                       #6 Name: Phoenix Suns
+                                                                                                                       -> City: Phoenix, AZ
+                                                                                                                       -> Home Court: Talking Stick Resort Arena
+                                                                                                                       -> Players on Roster: 14
+                                                                                                                       -> Coach: Earl Watson
+                                                                                                                       -> Owner: Robert Sarver
+                                                                                                                       -> Championships won: 0
+                                                                                                                                           #7 Name: Orlando Magic
+                                                                                                                                           -> City: Orlando, FL
+                                                                                                                                           -> Home Court: Amway Center
+                                                                                                                                           -> Players on Roster: 14
+                                                                                                                                           -> Coach: Frank Vogel
+                                                                                                                                           -> Owner: RDV Sports, Inc.
+                                                                                                                                           -> Championships won: 0
+                                                                                                                                                               #8 Name: Philadelphia 76ers
+                                                                                                                                                               -> City: Philadelphia, PA
+                                                                                                                                                               -> Home Court: Wells Fargo Center
+                                                                                                                                                               -> Players on Roster: 15
+                                                                                                                                                               -> Coach: Brett Brown
+                                                                                                                                                               -> Owner: Joshua Harris
+                                                                                                                                                               -> Championships won: 3
+                                                                                                                                                               #8 Name: Oklahoma City Thunder
+                                                                                                                                                               -> City: Oklahoma City, OK
+                                                                                                                                                               -> Home Court: Chesapeake Energy Arena
+                                                                                                                                                               -> Players on Roster: 15
+                                                                                                                                                               -> Coach: Billy Donovan
+                                                                                                                                                               -> Owner: Professional Basketball Club LLC
+                                                                                                                                                               -> Championships won: 1
+                                       #2 Name: Miami Heat
+                                       -> City: Miami, FL
+                                       -> Home Court: American Airlines Arena
+                                       -> Players on Roster: 15
+                                       -> Coach: Erik Spoelstra
+                                       -> Owner: Micky Arison
+                                       -> Championships won: 3
+                                                           #3 Name: New Orleans Pelicans
+                                                           -> City: New Orleans, LA
+                                                           -> Home Court: Smoothie King Center
+                                                           -> Players on Roster: 15
+                                                           -> Coach: Alvin Gentry
+                                                           -> Owner: Tom Benson
+                                                           -> Championships won: 0
+                                                                               #4 Name: Brooklyn Nets
+                                                                               -> City: New York City, NY
+                                                                               -> Home Court: Barclays Center
+                                                                               -> Players on Roster: 15
+                                                                               -> Coach: Kenny Atkinson
+                                                                               -> Owner: Mikhail Prokhorov
+                                                                               -> Championships won: 2
+                                                                                                   #5 Name: New York Knicks
+                                                                                                   -> City: New York City, NY
+                                                                                                   -> Home Court: Madison Square Garden
+                                                                                                   -> Players on Roster: 15
+                                                                                                   -> Coach: Jeff Hornacek
+                                                                                                   -> Owner: The Madison Square Garden Company
+                                                                                                   -> Championships won: 2
+                                                                               #4 Name: Minnesota Timberwolves
+                                                                               -> City: Minneapolis, MN
+                                                                               -> Home Court: Target Center
+                                                                               -> Players on Roster: 15
+                                                                               -> Coach: Tom Thibodeau
+                                                                               -> Owner: Glen Taylor
+                                                                               -> Championships won: 0
+                                                                                                   #5 Name: Team eight
+                                                                                                   -> City: N/A
+                                                                                                   -> Home Court: N/A
+                                                                                                   -> Players on Roster: 5
+                                                                                                   -> Coach: N/A
+                                                                                                   -> Owner: N/A
+                                                                                                   -> Championships won: 0
+                                                                                                   #5 Name: Milwaukee Bucks
+                                                                                                   -> City: Milwaukee, WI
+                                                                                                   -> Home Court: BMO Harris Bradley Center
+                                                                                                   -> Players on Roster: 15
+                                                                                                   -> Coach: Jason Kidd
+                                                                                                   -> Owner: Wesley R. Edens, Marc Lasry
+                                                                                                   -> Championships won: 1
+                   #1 Name: Atlanta Hawks
+                   -> City: Atlanta, GA
+                   -> Home Court: Philips Arena
+                   -> Players on Roster: 15
+                   -> Coach: Mike Budenholzer
+                   -> Owner: Antony Ressler
+                   -> Championships won: 1
+                                       #2 Name: Boston Celtics
+                                       -> City: Boston, MA
+                                       -> Home Court: TD Garden
+                                       -> Players on Roster: 15
+                                       -> Coach: Brad Stevens
+                                       -> Owner: Grousbeck, Steve Pagliuca
+                                       -> Championships won: 17
+                                                           #3 Name: Chicago Bulls
+                                                           -> City: Chicago, IL
+                                                           -> Home Court: United Center
+                                                           -> Players on Roster: 15
+                                                           -> Coach: Fred Hoiberg
+                                                           -> Owner: Jerry Reinsdorf
+                                                           -> Championships won: 6
+                                                                               #4 Name: Cleveland Cavaliers
+                                                                               -> City: Cleveland, OH
+                                                                               -> Home Court: Quicken Loans Arena
+                                                                               -> Players on Roster: 15
+                                                                               -> Coach: Tyronn Lue
+                                                                               -> Owner: Dan Gilbert, Usher, Gordon Gund
+                                                                               -> Championships won: 1
+                                                                                                   #5 Name: Dallas Mavericks
+                                                                                                   -> City: Dallas, TX
+                                                                                                   -> Home Court: American Airlines Center
+                                                                                                   -> Players on Roster: 15
+                                                                                                   -> Coach: Rick Carlisle
+                                                                                                   -> Owner: Mark Cuban
+                                                                                                   -> Championships won: 1
+                                                                                                                       #6 Name: Houston Rockets
+                                                                                                                       -> City: Houston, TX
+                                                                                                                       -> Home Court: Toyota Center
+                                                                                                                       -> Players on Roster: 15
+                                                                                                                       -> Coach: Mike D'Antoni
+                                                                                                                       -> Owner: Leslie Alexander
+                                                                                                                       -> Championships won: 2
+                                                                                                                                           #7 Name: Indiana Pacers
+                                                                                                                                           -> City: Indiana
+                                                                                                                                           -> Home Court: Bankers Life Fieldhouse
+                                                                                                                                           -> Players on Roster: 15
+                                                                                                                                           -> Coach: Nate McMillan
+                                                                                                                                           -> Owner: Herbert Simon
+                                                                                                                                           -> Championships won: 0
+                                                                                                                                                               #8 Name: Los Angeles Lakers
+                                                                                                                                                               -> City: Los Angeles, CA
+                                                                                                                                                               -> Home Court: Staples Center
+                                                                                                                                                               -> Players on Roster: 15
+                                                                                                                                                               -> Coach: Luke Walton
+                                                                                                                                                               -> Owner: The Buss
+                                                                                                                                                               -> Championships won: 16
+                                                                                                                                                                                   #9 Name: Los Angeles Clippers
+                                                                                                                                                                                   -> City: Los Angeles, CA
+                                                                                                                                                                                   -> Home Court: Staples Center
+                                                                                                                                                                                   -> Players on Roster: 15
+                                                                                                                                                                                   -> Coach: Doc Rivers
+                                                                                                                                                                                   -> Owner: Steve Ballmer
+                                                                                                                                                                                   -> Championships won: 0
+                                                                                                                                           #7 Name: Denver Nuggets
+                                                                                                                                           -> City: Denver, CO
+                                                                                                                                           -> Home Court: Pepsi Center
+                                                                                                                                           -> Players on Roster: 15
+                                                                                                                                           -> Coach: Michael Malone
+                                                                                                                                           -> Owner: Ann Walton Kroenke
+                                                                                                                                           -> Championships won: 0
+                                                                                                                                                               #8 Name: Detroit Pistons
+                                                                                                                                                               -> City: Detroit, MI
+                                                                                                                                                               -> Home Court: The Palace of Auburn Hills
+                                                                                                                                                               -> Players on Roster: 15
+                                                                                                                                                               -> Coach: Stan Van Gundy
+                                                                                                                                                               -> Owner: Tom Gores
+                                                                                                                                                               -> Championships won: 3
+                                                                               #4 Name: Charlotte Hornets
+                                                                               -> City: Charlotte, NC
+                                                                               -> Home Court: Spectrum Center
+                                                                               -> Players on Roster: 15
+                                                                               -> Coach: Steve Clifford
+                                                                               -> Owner: Nba Media Ventures, LLC
+                                                                               -> Championships won: 0
+ _________________________________
+|            Print Menu           |
+|---------------------------------|
+| U - Unsorted Data               |
+| I - Indented Tree(Primary)      |
+| N - Indented Tree(Secondary)    |
+| P - Sorted by Team Name(Primary)|
+| S - Sorted by City(Secondary)   |
+| R - Return to Main Menu         |
+|_________________________________|
+Select the menu: P
+ _________________________________________________________________________________________________________________________________________________
+|                                                                 Basketball Team                                                                 |
+|=================================================================================================================================================|
+|Name                     |City               |Home court                 |Players|Coach           |Owner                            |Championship|
+|-------------------------------------------------------------------------------------------------------------------------------------------------|
+|Atlanta Hawks            |Atlanta, GA        |Philips Arena              |     15|Mike Budenholzer|Antony Ressler                   |           1|
+|Boston Celtics           |Boston, MA         |TD Garden                  |     15|Brad Stevens    |Grousbeck, Steve Pagliuca        |          17|
+|Brooklyn Nets            |New York City, NY  |Barclays Center            |     15|Kenny Atkinson  |Mikhail Prokhorov                |           2|
+|Charlotte Hornets        |Charlotte, NC      |Spectrum Center            |     15|Steve Clifford  |Nba Media Ventures, LLC          |           0|
+|Chicago Bulls            |Chicago, IL        |United Center              |     15|Fred Hoiberg    |Jerry Reinsdorf                  |           6|
+|Cleveland Cavaliers      |Cleveland, OH      |Quicken Loans Arena        |     15|Tyronn Lue      |Dan Gilbert, Usher, Gordon Gund  |           1|
+|Dallas Mavericks         |Dallas, TX         |American Airlines Center   |     15|Rick Carlisle   |Mark Cuban                       |           1|
+|Denver Nuggets           |Denver, CO         |Pepsi Center               |     15|Michael Malone  |Ann Walton Kroenke               |           0|
+|Detroit Pistons          |Detroit, MI        |The Palace of Auburn Hills |     15|Stan Van Gundy  |Tom Gores                        |           3|
+|Golden State Warriors    |Oakland, CA        |Oracle Arena               |     15|Steve Kerr      |Joseph S. Lacob, Peter Guber     |           4|
+|Houston Rockets          |Houston, TX        |Toyota Center              |     15|Mike D'Antoni   |Leslie Alexander                 |           2|
+|Indiana Pacers           |Indiana            |Bankers Life Fieldhouse    |     15|Nate McMillan   |Herbert Simon                    |           0|
+|Los Angeles Clippers     |Los Angeles, CA    |Staples Center             |     15|Doc Rivers      |Steve Ballmer                    |           0|
+|Los Angeles Lakers       |Los Angeles, CA    |Staples Center             |     15|Luke Walton     |The Buss                         |          16|
+|Memphis Grizzlies        |Memphis, TN        |FedExForum                 |     15|David Fizdale   |Robert J. Pera                   |           0|
+|Miami Heat               |Miami, FL          |American Airlines Arena    |     15|Erik Spoelstra  |Micky Arison                     |           3|
+|Milwaukee Bucks          |Milwaukee, WI      |BMO Harris Bradley Center  |     15|Jason Kidd      |Wesley R. Edens, Marc Lasry      |           1|
+|Minnesota Timberwolves   |Minneapolis, MN    |Target Center              |     15|Tom Thibodeau   |Glen Taylor                      |           0|
+|New Orleans Pelicans     |New Orleans, LA    |Smoothie King Center       |     15|Alvin Gentry    |Tom Benson                       |           0|
+|New York Knicks          |New York City, NY  |Madison Square Garden      |     15|Jeff Hornacek   |The Madison Square Garden Company|           2|
+|Oklahoma City Thunder    |Oklahoma City, OK  |Chesapeake Energy Arena    |     15|Billy Donovan   |Professional Basketball Club LLC |           1|
+|Orlando Magic            |Orlando, FL        |Amway Center               |     14|Frank Vogel     |RDV Sports, Inc.                 |           0|
+|Philadelphia 76ers       |Philadelphia, PA   |Wells Fargo Center         |     15|Brett Brown     |Joshua Harris                    |           3|
+|Phoenix Suns             |Phoenix, AZ        |Talking Stick Resort Arena |     14|Earl Watson     |Robert Sarver                    |           0|
+|Portland Trail Blazers   |Portland, OR       |Moda Center                |     15|Terry Stotts    |Paul Allen                       |           1|
+|Sacramento Kings         |Sacramento, CA     |Golden 1 Center            |     15|Dave Joerger    |Vivek Ranadiv开                  |           1|
+|San Antonio Spurs        |San Antonio, TX    |AT&T Center                |     15|Gregg Popovich  |Peter Holt                       |           5|
+|Team eight               |N/A                |N/A                        |      5|N/A             |N/A                              |           0|
+|Toronto Raptors          |Toronto, Canada    |Air Canada Centre          |     15|Dwane Casey     |Maple Leaf Hockey Club.          |           0|
+|Utah Jazz                |Salt Lake City, UT |Vivint Smart Home Arena    |     15|Quin Snyder     |Greg Miller                      |           0|
+|Washington Wizards       |Washington, D.C.   |Verizon Center             |     15|Scott Brooks    |Ted Leonsis                      |           1|
+|_________________________|___________________|___________________________|_______|________________|_________________________________|____________|
+ _________________________________
+|            Print Menu           |
+|---------------------------------|
+| U - Unsorted Data               |
+| I - Indented Tree(Primary)      |
+| N - Indented Tree(Secondary)    |
+| P - Sorted by Team Name(Primary)|
+| S - Sorted by City(Secondary)   |
+| R - Return to Main Menu         |
+|_________________________________|
+Select the menu: R
+Return to the Main Menu.
+
+ _______________________________
+|           Main Menu           |
+|-------------------------------|
+| A - Add Team                  |
+| S - Search Team               |
+| D - Delete Team               |
+| P - Print Team                |
+| T - Show Statistics of Hash   |
+| Q - Quit                      |
+|_______________________________|
+Select the menu: T
+~*~*    Statistics    *~*~
+Collisions: 8
+Default Bucket Size: 63
+Load Factor: 52.381
+ _______________________________
+|           Main Menu           |
+|-------------------------------|
+| A - Add Team                  |
+| S - Search Team               |
+| D - Delete Team               |
+| P - Print Team                |
+| T - Show Statistics of Hash   |
+| Q - Quit                      |
+|_______________________________|
+Select the menu: Q
+Quit the Program.
+
+Saved to file.
+Press any key to continue . . .
