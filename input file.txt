@@ -1,0 +1,31 @@
+Los Angeles Clippers;Los Angeles, CA;Staples Center;15;Doc Rivers;Steve Ballmer;0
+Golden State Warriors;Oakland, CA;Oracle Arena;15;Steve Kerr;Joseph S. Lacob, Peter Guber;4
+San Antonio Spurs;San Antonio, TX;AT&T Center;15;Gregg Popovich;Peter Holt;5
+Los Angeles Lakers;Los Angeles, CA;Staples Center;15;Luke Walton;The Buss;16
+Atlanta Hawks;Atlanta, GA;Philips Arena;15;Mike Budenholzer;Antony Ressler;1
+Washington Wizards;Washington, D.C.;Verizon Center;15;Scott Brooks;Ted Leonsis;1
+Utah Jazz;Salt Lake City, UT;Vivint Smart Home Arena;15;Quin Snyder;Greg Miller;0
+Boston Celtics;Boston, MA;TD Garden;15;Brad Stevens;Grousbeck, Steve Pagliuca;17
+Miami Heat;Miami, FL;American Airlines Arena;15;Erik Spoelstra;Micky Arison;3
+Chicago Bulls;Chicago, IL;United Center;15;Fred Hoiberg;Jerry Reinsdorf;6
+Toronto Raptors;Toronto, Canada;Air Canada Centre;15;Dwane Casey;Maple Leaf Hockey Club.;0
+Sacramento Kings;Sacramento, CA;Golden 1 Center;15;Dave Joerger;Vivek Ranadiv¨¦;1
+Charlotte Hornets;Charlotte, NC;Spectrum Center;15;Steve Clifford;Nba Media Ventures, LLC;0
+New Orleans Pelicans;New Orleans, LA;Smoothie King Center;15;Alvin Gentry;Tom Benson;0
+Brooklyn Nets;New York City, NY;Barclays Center;15;Kenny Atkinson;Mikhail Prokhorov;2
+Portland Trail Blazers;Portland, OR;Moda Center;15;Terry Stotts;Paul Allen;1
+New York Knicks;New York City, NY;Madison Square Garden;15;Jeff Hornacek;The Madison Square Garden Company;2
+Cleveland Cavaliers;Cleveland, OH;Quicken Loans Arena;15;Tyronn Lue;Dan Gilbert, Usher, Gordon Gund;1
+Phoenix Suns;Phoenix, AZ;Talking Stick Resort Arena;14;Earl Watson;Robert Sarver;0
+Dallas Mavericks;Dallas, TX;American Airlines Center;15;Rick Carlisle;Mark Cuban;1
+Houston Rockets;Houston, TX;Toyota Center;15;Mike D'Antoni;Leslie Alexander;2
+Orlando Magic;Orlando, FL;Amway Center;14;Frank Vogel;RDV Sports, Inc.;0
+Memphis Grizzlies;Memphis, TN;FedExForum;15;David Fizdale;Robert J. Pera;0
+Indiana Pacers;Indiana;Bankers Life Fieldhouse;15;Nate McMillan;Herbert Simon;0
+Philadelphia 76ers;Philadelphia, PA;Wells Fargo Center;15;Brett Brown;Joshua Harris;3
+Oklahoma City Thunder;Oklahoma City, OK;Chesapeake Energy Arena;15;Billy Donovan;Professional Basketball Club LLC;1
+Minnesota Timberwolves;Minneapolis, MN;Target Center;15;Tom Thibodeau;Glen Taylor;0
+Milwaukee Bucks;Milwaukee, WI;BMO Harris Bradley Center;15;Jason Kidd;Wesley R. Edens, Marc Lasry;1
+Denver Nuggets;Denver, CO;Pepsi Center;15;Michael Malone;Ann Walton Kroenke;0
+Detroit Pistons;Detroit, MI;The Palace of Auburn Hills;15;Stan Van Gundy;Tom Gores;3
+
